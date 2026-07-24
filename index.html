@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wilson Morales — Web Developer &amp; AI Integration</title>
+<meta name="description" content="Portafolio profesional de Wilson Rodolfo Soc Morales. Desarrollo web frontend, backend e integración de Inteligencia Artificial.">
+<meta name="author" content="Wilson Rodolfo Soc Morales">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wilson Morales — Web Developer & AI Integration">
+<meta property="og:description" content="Desarrollo web frontend, backend e integración de Inteligencia Artificial.">
+<meta property="og:image" content="./img/PORTAF-WIL.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#inicio" class="nav__logo">DEV<span>WILM</span></a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#ia" class="nav__ia">IA</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto" class="nav__cta">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="inicio">
+  <div class="container hero__inner">
+    <div class="hero__text reveal">
+      <p class="hero__eyebrow">Guatemala · Disponible para nuevos proyectos</p>
+      <h1 class="hero__title">Wilson Rodolfo<br>Soc Morales</h1>
+      <p class="hero__role">Web Developer <span class="sep">·</span> AI Integration</p>
+      <p class="hero__lead">
+        Construyo interfaces web rápidas, accesibles y bien terminadas — y las conecto
+        con modelos de Inteligencia Artificial para convertirlas en productos que
+        realmente resuelven problemas.
+      </p>
+      <div class="hero__actions">
+        <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+        <a href="#ia" class="btn btn--ghost">Sección IA <span class="dot-live"></span></a>
+      </div>
+      <div class="hero__stats">
+        <div><strong>5+</strong><span>Proyectos publicados</span></div>
+        <div><strong>3</strong><span>Áreas: Front · Back · IA</span></div>
+        <div><strong>100%</strong><span>Código propio</span></div>
+      </div>
+    </div>
+
+    <div class="hero__media reveal">
+      <div class="hero__photo">
+        <img src="./img/PORTAF-WIL.jpg" alt="Wilson Rodolfo Soc Morales" loading="eager">
+      </div>
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        Abierto a entrevistas
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll"><span></span></div>
+</header>
+
+<main>
+
+<!-- ===== SOBRE MÍ ===== -->
+<section class="section" id="sobre-mi">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__num">01</span>
+      <h2 class="section__title">Sobre mí</h2>
+    </div>
+    <div class="about reveal">
+      <div class="about__main">
+        <p>
+          Soy desarrollador web con foco en la construcción de interfaces limpias y
+          en la integración de Inteligencia Artificial dentro de productos reales.
+          Trabajo con HTML, CSS y JavaScript como base, y me muevo hacia el backend
+          y los servicios de IA para cerrar el ciclo completo de una aplicación.
+        </p>
+        <p>
+          Cada proyecto de este portafolio está escrito y desplegado por mí. Me interesa
+          el detalle: el rendimiento, el comportamiento en móvil, y que el código sea
+          legible para el siguiente que lo toque.
+        </p>
+        <p>
+          Actualmente estoy desarrollando una línea de proyectos centrados en IA —
+          asistentes conversacionales, automatización de procesos e integración de
+          modelos de lenguaje en aplicaciones web.
+        </p>
+      </div>
+      <ul class="about__facts">
+        <li><span>Rol</span><strong>Web Developer</strong></li>
+        <li><span>Especialidad</span><strong>Frontend + AI</strong></li>
+        <li><span>Ubicación</span><strong>Guatemala</strong></li>
+        <li><span>Idiomas</span><strong>Español · Inglés técnico</strong></li>
+        <li><span>Modalidad</span><strong>Remoto · Híbrido</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STACK ===== -->
+<section class="section section--alt" id="stack">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__num">02</span>
+      <h2 class="section__title">Stack técnico</h2>
+      <p class="section__sub">Las herramientas con las que trabajo día a día.</p>
+    </div>
+    <div class="stack reveal">
+      <article class="stack__card">
+        <h3>Frontend</h3>
+        <ul class="chips">
+          <li>HTML5</li><li>CSS3</li><li>JavaScript ES6+</li>
+          <li>Responsive Design</li><li>Flexbox / Grid</li><li>Git</li>
+        </ul>
+      </article>
+      <article class="stack__card">
+        <h3>Backend &amp; Datos</h3>
+        <ul class="chips">
+          <li>Node.js</li><li>APIs REST</li><li>JSON</li>
+          <li>Bases de datos</li><li>Autenticación</li>
+        </ul>
+      </article>
+      <article class="stack__card stack__card--ia">
+        <h3>Inteligencia Artificial</h3>
+        <ul class="chips">
+          <li>APIs de LLM</li><li>Prompt Engineering</li>
+          <li>Chatbots</li><li>Automatización</li><li>Integración en web</li>
+        </ul>
+      </article>
+      <article class="stack__card">
+        <h3>Herramientas</h3>
+        <ul class="chips">
+          <li>VS Code</li><li>GitHub Pages</li><li>Figma</li><li>DevTools</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECCIÓN ESPECIAL: IA ===== -->
+<section class="ia" id="ia">
+  <div class="ia__glow" aria-hidden="true"></div>
+  <div class="container ia__inner">
+
+    <div class="section__head section__head--light reveal">
+      <span class="section__num">03</span>
+      <h2 class="section__title">
+        Inteligencia Artificial
+        <span class="tag-live">En construcción</span>
+      </h2>
+      <p class="section__sub">
+        Una línea de trabajo dedicada: aplicaciones web que integran modelos de lenguaje
+        y automatización. Los proyectos se irán publicando aquí conforme se completen.
+      </p>
+    </div>
+
+    <div class="ia__pillars reveal">
+      <article class="ia__pillar">
+        <div class="ia__icon">◈</div>
+        <h3>Asistentes conversacionales</h3>
+        <p>Chatbots conectados a APIs de modelos de lenguaje, con contexto propio y memoria de conversación.</p>
+      </article>
+      <article class="ia__pillar">
+        <div class="ia__icon">◆</div>
+        <h3>Automatización de procesos</h3>
+        <p>Flujos que reducen trabajo manual: clasificación, resumen y extracción de información desde documentos.</p>
+      </article>
+      <article class="ia__pillar">
+        <div class="ia__icon">◇</div>
+        <h3>IA dentro de la interfaz</h3>
+        <p>Búsqueda semántica, sugerencias en tiempo real y generación de contenido integradas en la propia web.</p>
+      </article>
+    </div>
+
+    <h3 class="ia__subtitle reveal">Proyectos en desarrollo</h3>
+
+    <div class="ia__grid reveal">
+      <article class="ia__project">
+        <div class="ia__project-top">
+          <span class="status status--wip">En desarrollo</span>
+          <span class="ia__project-num">01</span>
+        </div>
+        <h4>Asistente Web Conversacional</h4>
+        <p>Chat integrado en sitio web capaz de responder sobre el contenido del propio sitio.</p>
+        <ul class="chips chips--dark">
+          <li>JavaScript</li><li>API LLM</li><li>UI en tiempo real</li>
+        </ul>
+      </article>
+
+      <article class="ia__project">
+        <div class="ia__project-top">
+          <span class="status status--wip">En desarrollo</span>
+          <span class="ia__project-num">02</span>
+        </div>
+        <h4>Automatizador de Contenido</h4>
+        <p>Herramienta que genera y reescribe textos a partir de plantillas y parámetros del usuario.</p>
+        <ul class="chips chips--dark">
+          <li>Node.js</li><li>Prompt Engineering</li><li>REST</li>
+        </ul>
+      </article>
+
+      <article class="ia__project">
+        <div class="ia__project-top">
+          <span class="status status--soon">Próximamente</span>
+          <span class="ia__project-num">03</span>
+        </div>
+        <h4>Buscador Semántico</h4>
+        <p>Motor de búsqueda que entiende la intención de la consulta, no solo las palabras exactas.</p>
+        <ul class="chips chips--dark">
+          <li>Embeddings</li><li>Vector search</li><li>Frontend</li>
+        </ul>
+      </article>
+
+      <article class="ia__project ia__project--placeholder">
+        <div class="ia__project-top">
+          <span class="status status--next">Siguiente</span>
+          <span class="ia__project-num">04</span>
+        </div>
+        <h4>Espacio reservado</h4>
+        <p>Este bloque se completará con el próximo proyecto de la línea de IA.</p>
+      </article>
+    </div>
+
+    <div class="ia__note reveal">
+      <p>¿Quieres seguir el avance de estos proyectos?</p>
+      <a href="https://github.com/wilsonmoralesofficial" target="_blank" rel="noopener" class="btn btn--light">Seguir en GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== PROYECTOS ===== -->
+<section class="section" id="proyectos">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__num">04</span>
+      <h2 class="section__title">Proyectos publicados</h2>
+      <p class="section__sub">Trabajos en línea. Haz clic en cualquiera para abrirlo.</p>
+    </div>
+
+    <div class="filters reveal" id="filters">
+      <button class="filter is-active" data-filter="todos">Todos</button>
+      <button class="filter" data-filter="frontend">Frontend</button>
+      <button class="filter" data-filter="backend">Backend</button>
+      <button class="filter" data-filter="ia">IA</button>
+    </div>
+
+    <div class="projects" id="projects">
+
+      <article class="project" data-cat="frontend">
+        <a href="https://wilsonmoralesofficial.github.io/BataBit/" target="_blank" rel="noopener">
+          <div class="project__img"><img src="./img/1.png" alt="Proyecto BataBit" loading="lazy"></div>
+          <div class="project__body">
+            <div class="project__meta"><span class="badge">Frontend</span></div>
+            <h3>BataBit</h3>
+            <p>Landing page de intercambio de criptomonedas. Diseño responsive mobile-first.</p>
+            <span class="project__link">Ver proyecto →</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project" data-cat="frontend">
+        <a href="https://wilsonmoralesofficial.github.io/ClonGoogle/" target="_blank" rel="noopener">
+          <div class="project__img"><img src="./img/2.png" alt="Proyecto Clon de Google" loading="lazy"></div>
+          <div class="project__body">
+            <div class="project__meta"><span class="badge">Frontend</span></div>
+            <h3>Google Clone</h3>
+            <p>Réplica fiel de la interfaz de Google. Ejercicio de precisión en maquetación.</p>
+            <span class="project__link">Ver proyecto →</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project" data-cat="frontend">
+        <a href="https://wilsonmoralesofficial.github.io/WilinkVideo/" target="_blank" rel="noopener">
+          <div class="project__img"><img src="./img/3.png" alt="Proyecto WilinkVideo" loading="lazy"></div>
+          <div class="project__body">
+            <div class="project__meta"><span class="badge">Frontend</span></div>
+            <h3>WilinkVideo</h3>
+            <p>Plataforma de video con navegación fluida y layout adaptable a móvil.</p>
+            <span class="project__link">Ver proyecto →</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project" data-cat="frontend">
+        <a href="https://wilsonmoralesofficial.github.io/TechNews/" target="_blank" rel="noopener">
+          <div class="project__img"><img src="./img/4.png" alt="Proyecto TechNews" loading="lazy"></div>
+          <div class="project__body">
+            <div class="project__meta"><span class="badge">Frontend</span></div>
+            <h3>TechNews</h3>
+            <p>Portal de noticias tecnológicas con estructura de contenido escalable.</p>
+            <span class="project__link">Ver proyecto →</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project" data-cat="frontend">
+        <a href="https://wilsonmoralesofficial.github.io/card-target/" target="_blank" rel="noopener">
+          <div class="project__img"><img src="./img/6.png" alt="Proyecto Payment Card" loading="lazy"></div>
+          <div class="project__body">
+            <div class="project__meta"><span class="badge">Frontend</span></div>
+            <h3>Payment Card</h3>
+            <p>Formulario de tarjeta con validación y actualización visual en tiempo real.</p>
+            <span class="project__link">Ver proyecto →</span>
+          </div>
+        </a>
+      </article>
+
+      <article class="project project--ghost" data-cat="ia">
+        <div class="project__img project__img--ghost"><span>IA</span></div>
+        <div class="project__body">
+          <div class="project__meta"><span class="badge badge--ia">Inteligencia Artificial</span></div>
+          <h3>Próximo proyecto de IA</h3>
+          <p>Los proyectos de esta categoría están en desarrollo. Consulta la <a href="#ia">sección de IA</a> para ver el avance.</p>
+        </div>
+      </article>
+
+      <article class="project project--ghost" data-cat="backend">
+        <div class="project__img project__img--ghost"><span>&lt;/&gt;</span></div>
+        <div class="project__body">
+          <div class="project__meta"><span class="badge">Backend</span></div>
+          <h3>Próximo proyecto de Backend</h3>
+          <p>APIs y servicios en construcción. Se publicarán en este mismo espacio.</p>
+        </div>
+      </article>
+
+    </div>
+    <p class="projects__empty" id="projectsEmpty" hidden>No hay proyectos publicados en esta categoría todavía.</p>
+  </div>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section class="section section--alt" id="contacto">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__num">05</span>
+      <h2 class="section__title">Trabajemos juntos</h2>
+      <p class="section__sub">Disponible para entrevistas, proyectos freelance y posiciones de tiempo completo.</p>
+    </div>
+
+    <div class="contact reveal">
+      <a class="contact__card contact__card--linkedin"
+         href="https://www.linkedin.com/in/wilson-morales-0b5015212/" target="_blank" rel="noopener">
+        <span class="contact__label">LinkedIn</span>
+        <strong>Perfil profesional</strong>
+        <span class="contact__arrow">→</span>
+      </a>
+
+      <a class="contact__card contact__card--whatsapp"
+         href="https://api.whatsapp.com/send?phone=50257167712&text=%C2%A1HOLA,%20me%20ha%20interesado%20tu%20perfil%20y%20deseo%20agendar%20una%20entrevista%20para%20que%20me%20cuentes%20mas%20acerca%20de%20todo%20el%20trabajo%20que%20realizas!"
+         target="_blank" rel="noopener">
+        <span class="contact__label">WhatsApp</span>
+        <strong>Agendar entrevista</strong>
+        <span class="contact__arrow">→</span>
+      </a>
+
+      <a class="contact__card contact__card--github"
+         href="https://github.com/wilsonmoralesofficial" target="_blank" rel="noopener">
+        <span class="contact__label">GitHub</span>
+        <strong>Ver código</strong>
+        <span class="contact__arrow">→</span>
+      </a>
+
+      <a class="contact__card contact__card--mail"
+         href="mailto:wilsonmoralesofficial@gmail.com">
+        <span class="contact__label">Email</span>
+        <strong>wilsonmoralesofficial@gmail.com</strong>
+        <span class="contact__arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span class="footer__logo">DEV<span>WILM</span></span>
+    <p>Diseñado y desarrollado por Wilson Rodolfo Soc Morales · <span id="year"></span></p>
+  </div>
+</footer>
+
+<a href="#inicio" class="to-top" id="toTop" aria-label="Volver arriba">↑</a>
+
+<script src="./main.js"></script>
+</body>
+</html>
