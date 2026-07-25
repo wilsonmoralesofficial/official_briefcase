@@ -19,7 +19,7 @@ Portafolio profesional de desarrollo web con una sección dedicada a **Inteligen
 |---|---------|-----------|
 | 01 | Sobre mí | Perfil profesional y datos clave |
 | 02 | Stack técnico | Frontend, backend, IA y herramientas |
-| 03 | **Inteligencia Artificial** | Línea de trabajo dedicada: pilares y proyectos en desarrollo |
+| 03 | **Inteligencia Artificial** | Pilares, proyecto destacado ([devops-journey-v2](https://github.com/wilsonmoralesofficial/devops-journey-v2)) y proyectos en desarrollo |
 | 04 | Proyectos publicados | Grid filtrable por categoría |
 | 05 | Contacto | LinkedIn, WhatsApp, GitHub y email |
 
